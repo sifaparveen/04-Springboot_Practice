@@ -10,10 +10,11 @@ public class SpringbootPracticeApplication {
 	public static void main(String[] args) {
 
 		ApplicationContext context= SpringApplication.run(SpringbootPracticeApplication.class, args);
-
-		Code obj = context.getBean(Code.class);
-
+		Alien obj = context.getBean(Alien.class);
+		System.out.println(obj.getAge());
 		obj.message();
+
+
 
 	}
 
