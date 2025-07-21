@@ -1,4 +1,4 @@
-package com.example.springboot_practice;
+package com.example.springboot_practice.model;
 
 public interface Computer {
 
